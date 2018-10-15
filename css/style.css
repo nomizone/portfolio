@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 32px;
   border-radius: 2px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 0px 10px 0px 10px;
   color: #fff;
 }
 
@@ -265,17 +265,11 @@ h1, h2, h3, h4, h5, h6 {
   transition-property: opacity;
 }
 
-#intro .catch{
-  font-size: 1rem;
-  width:70%;
-  font-family: 'Bangers', cursive;
+#intro .catch_img img{
+  max-width: 100%;
+  z-index: 10;
 }
 
-#intro .read{
-  font-size: 1rem;
-  width:70%;
-  margin:0 0 20px 0;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -545,17 +539,72 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* About Section
 --------------------------------*/
-#journey {
+#about {
   padding: 60px 0 30px 0;
 }
 
-#journey .about-img {
+#about .about-img {
   overflow: hidden;
 }
 
-#journey .about-img img {
+#about .about-img img {
   margin-left: -15px;
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .content h2 {
+  color: #0c2e8a;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+
+#about .content h3 {
+  color: #555;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#about .content p {
+  line-height: 26px;
+}
+
+#about .content p:last-child {
+  margin-bottom: 0;
+}
+
+#about .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #fb005c;
+}
+
+#about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .content ul li {
+  padding-bottom: 10px;
+}
+
+
+/* journey Section
+--------------------------------*/
+#journey {
+  padding: 60px 0 30px 0;
 }
 
 @media (max-width: 768px) {
@@ -1191,76 +1240,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (min-width: 768px) {
-  #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-}
-
-#contact #google-map {
-  height: 290px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 576px) {
-  #contact #google-map {
-    margin-top: 20px;
-  }
-}
-
-#contact .form #sendmessage {
-  color: #fb005c;
-  border: 1px solid #fb005c;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input, #contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-
-#contact .form button[type="submit"] {
-  background: #fb005c;
-  border: 0;
-  border-radius: 3px;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  cursor: pointer;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #2dc899;
-}
 
 /*--------------------------------------------------------------
 # Footer
