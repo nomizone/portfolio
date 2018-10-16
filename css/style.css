@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 20px 0;
-  height: 84px;
+  height: 75px;
   transition: all 0.5s;
   z-index: 997;
   background: #323234;
@@ -185,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  padding: 15px;
 }
 
 #intro .intro-content h2 {
@@ -221,6 +222,8 @@ h1, h2, h3, h4, h5, h6 {
 #intro .intro-content .btn-get-started {
   background: #0c2e8a;
   border: 2px solid #0c2e8a;
+  margin: 10px;
+  width: 200px;
 }
 
 #intro .intro-content .btn-get-started:hover {
@@ -231,6 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .intro-content .btn-projects {
   background: #fb005c;
   border: 2px solid #fb005c;
+  width: 200px;
 }
 
 #intro .intro-content .btn-projects:hover {
@@ -267,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .catch_img img{
   max-width: 100%;
-  z-index: 10;
+
 }
 
 
