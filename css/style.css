@@ -660,6 +660,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+#journey .timeline-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#journey .timeline-body ul li {
+  display: inline-block;
+  margin: 0.3em 0.3em 0 0;
+  padding: 0.5em 1em;
+  background-color: #fb005c;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #fff;
+  font-size: 0.7em;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+
+
 .timeline {
   position: relative;
   padding: 0;
