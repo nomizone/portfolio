@@ -180,11 +180,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 10;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 15px;
+  padding: 10px 15px 25px 15px;
+  margin: 2em 1em 2em 1em;
 }
 
 #intro .intro-content h2 {
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #0c2e8a;
   border: 2px solid #0c2e8a;
   margin: 10px;
-  width: 200px;
+  width: 20em;
 }
 
 #intro .intro-content .btn-about:hover {
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .intro-content .btn-portfolio {
   background: #fb005c;
   border: 2px solid #fb005c;
-  width: 200px;
+  width: 20em;
 }
 
 #intro .intro-content .btn-portfolio:hover {
