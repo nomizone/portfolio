@@ -1,17 +1,17 @@
-h2 {
+h3 {
   position: relative;
   text-align: center;
   border: 2px solid #000;
   background: #fff;
 }
 
-h2:before,
-h2:after {
+h3:before,
+h3:after {
   position: absolute;
   content: '';
 }
 
-h2:before {
+h3:before {
   top: -40px;
   left: calc(50% - 40px);
   width: 80px;
@@ -21,7 +21,7 @@ h2:before {
   background: #fff;
 }
 
-h2:after {
+h3:after {
   top: 4px;
   left: 4px;
   width: calc(100% - 8px);
@@ -30,7 +30,7 @@ h2:after {
   background: #fff;
 }
 
-h2 i {
+h3 i {
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 60px;
@@ -43,20 +43,20 @@ h2 i {
   text-align: center;
 }
 
-h2 span {
+h3 span {
   position: relative;
   z-index: 1;
   display: block;
   padding: 1.5rem;
 }
 
-h2 span:before,
-h2 span:after {
+h3 span:before,
+h3 span:after {
   position: absolute;
   content: '';
 }
 
-h2 span:before {
+h3 span:before {
   top: -34px;
   left: calc(50% - 34px);
   width: 68px;
@@ -65,7 +65,7 @@ h2 span:before {
   border-radius: 50vw 50vw 0 0;
 }
 
-h2 span:after {
+h3 span:after {
   position: absolute;
   top: 4px;
   left: calc(50% - 32px);
